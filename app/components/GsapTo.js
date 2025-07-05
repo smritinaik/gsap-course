@@ -8,7 +8,7 @@ const GsapTo = () => {
       x:250,
       repeat: -1,
       yoyo: true,
-      rotation: 250,
+      rotation: 200,
       duration:2,
       ease:"elastic"
     })
