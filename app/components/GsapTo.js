@@ -14,8 +14,6 @@ const GsapTo = () => {
     })
   })
 
-
-
   return (
     <main>
       <h1>GsapTo</h1>
