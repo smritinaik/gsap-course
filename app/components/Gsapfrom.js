@@ -15,8 +15,6 @@ const GsapFrom = () => {
     }) 
   } )
 
-
-
   return (
     <main>
       <h1>GsapFrom</h1>
