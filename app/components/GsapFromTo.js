@@ -6,18 +6,18 @@ const GsapFromTo = () => {
     useGSAP(() => {
         gsap.fromTo("#red-box",
             { //from
-                x:0,
+                x: 0,
                 rotation: 0,
                 borderRadius: "0%"
             },
             { //to
-                x:250,
-                rotation:360,
-                borderRadius:"100%",
+                x: 250,
+                rotation: 360,
+                borderRadius: "100%",
                 ease: "bounce.out",
                 repeat: -1,
                 duration: 2,
-                yoyo : true,
+                yoyo: true,
 
             });
     });
