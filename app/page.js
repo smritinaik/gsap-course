@@ -2,6 +2,7 @@ import React from 'react'
 import GsapTo from './components/GsapTo'
 import GsapFrom from './components/Gsapfrom'
 import GsapFromTo from './components/GsapFromTo'
+import GsapStagger from './components/t GsapStagger '
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
     <GsapTo/>
     <GsapFrom/>
     <GsapFromTo/>
+    <GsapStagger/>
     </>
   )
 }
