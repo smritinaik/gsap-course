@@ -14,14 +14,14 @@ const GsapScrollTrigger = () => {
 
         boxes.forEach((box) => {
             gsap.to(box , {
-                x:150 * (boxes.indexOf(box) + 3),
+                x:150 * (boxes.indexOf(box) + 2),
                 rotation: 360,
                 borderRadius:'100%',
                 scale:1.5,
                 scrollTrigger:{
                     trigger: box,
                     start : 'bottom bottom',
-                    end : 'top 5%',
+                    end : 'top 2%',
                     scrub: true,
                 },
                 ease: 'power1.inOut',
