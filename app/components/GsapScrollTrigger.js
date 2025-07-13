@@ -32,7 +32,9 @@ const GsapScrollTrigger = () => {
 
     return (
         <main>
-            <h1 className="mt-11">GsapScrollTrigger</h1>
+            <h1 className="mt-11">Gsap</h1>
+            <h1 className="mt-0">ScrollTrigger</h1>
+
 
             <p className="mt-5 text-gray-500">
                 Gsap Scroll Trigger is a plugin that allows you to create animations
