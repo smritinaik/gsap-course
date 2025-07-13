@@ -39,7 +39,7 @@ const GsapStagger = () => {
                 create dynamic and visually appealing effects, such as staggered fades,
                 rotations, movements, and more.
             </p>
-            <div className="mt-20">
+            <div className="mt-0 mb-0.5">
                 <div className="flex gap-5">
                     <div className="w-20 h-20 bg-pink-200 rounded-lg stagger-box" />
                     <div className="w-20 h-20 bg-pink-300 rounded-lg stagger-box" />

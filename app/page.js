@@ -3,6 +3,7 @@ import GsapTo from './components/GsapTo'
 import GsapFrom from './components/Gsapfrom'
 import GsapFromTo from './components/GsapFromTo'
 import GsapStagger from './components/t GsapStagger '
+import GsapScrollTrigger from './components/GsapScrollTrigger'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
     <GsapFrom/>
     <GsapFromTo/>
     <GsapStagger/>
+    <GsapScrollTrigger/>
     </>
   )
 }
