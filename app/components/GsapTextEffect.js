@@ -21,18 +21,6 @@ const GsapText = () => {
         TextPlugin or other third-party libraries that specialize in text
         animations.
       </p>
-
-      <p className="mt-5 text-gray-500 para">
-        Read more about the{" "}
-        <a
-          href="https://greensock.com/docs/v3/Plugins/TextPlugin"
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-        >
-          TextPlugin
-        </a>{" "}
-        plugin.
-      </p>
     </main>
   );
 };
